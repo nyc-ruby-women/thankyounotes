@@ -1,6 +1,19 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
+gem 'devise'
+gem 'mysql'
+
+group :development do
+	gem 'jquery-rails'
+	gem 'less'
+	gem 'simple_form'
+	gem 'ruby-debug19'
+end
+
+group :development, :test do
+	gem 'cucumber'
+end
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
