@@ -1,0 +1,12 @@
+Project purpose: 
+  To keep track of who gave you which presents so you can thank them appropriately and on-time, by email or letter. 
+  -- Who gave the gift? 
+  -- What did they give? 
+  -- How close are they to you? (Family, close friends, acquaintances, business colleagues, etc.) 
+  -- What occasion was the gift for? (holiday, birthday, wedding, housewarming, etc.) 
+  -- Do you need to return the gift? 
+  -- Gift giver name(s), email and address 
+  -- Shop/store the gift came from 
+     -- Accommodate for gift registry (site scrape? store inventory & pricing API?) 
+     -- Accommodate for "other" (handmade, cash/check) 
+  -- Thank you note templates
