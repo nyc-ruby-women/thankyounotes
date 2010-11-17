@@ -33,6 +33,7 @@ GEM
     bcrypt-ruby (2.1.2)
     builder (2.1.2)
     columnize (0.3.2)
+    configuration (1.1.0)
     cucumber (0.9.4)
       builder (~> 2.1.2)
       diff-lcs (~> 1.1.2)
@@ -48,11 +49,19 @@ GEM
     gherkin (2.2.9)
       json (~> 1.4.6)
       term-ansicolor (~> 1.0.5)
+    heroku (1.13.6)
+      json_pure (>= 1.2.0, < 1.5.0)
+      launchy (~> 0.3.2)
+      rest-client (>= 1.4.0, < 1.7.0)
     i18n (0.4.2)
     jquery-rails (0.2.5)
       rails (~> 3.0)
       thor (~> 0.14.4)
     json (1.4.6)
+    json_pure (1.4.6)
+    launchy (0.3.7)
+      configuration (>= 0.0.5)
+      rake (>= 0.8.1)
     less (1.2.21)
       mutter (>= 0.4.2)
       treetop (>= 1.4.2)
@@ -86,6 +95,8 @@ GEM
       rake (>= 0.8.7)
       thor (~> 0.14.4)
     rake (0.8.7)
+    rest-client (1.6.1)
+      mime-types (>= 1.16)
     ruby-debug-base19 (0.11.24)
       columnize (>= 0.3.1)
       linecache19 (>= 0.5.11)
@@ -111,6 +122,7 @@ PLATFORMS
 DEPENDENCIES
   cucumber
   devise
+  heroku
   jquery-rails
   less
   mysql

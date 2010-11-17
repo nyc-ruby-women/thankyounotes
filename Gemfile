@@ -9,6 +9,7 @@ group :development do
 	gem 'less'
 	gem 'simple_form'
 	gem 'ruby-debug19'
+	gem 'heroku'
 end
 
 group :development, :test do
