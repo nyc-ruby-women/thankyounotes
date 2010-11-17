@@ -5,7 +5,6 @@ gem 'devise'
 gem 'mysql'
 
 group :development do
-	gem 'jquery-rails'
 	gem 'less'
 	gem 'simple_form'
 	gem 'ruby-debug19'
